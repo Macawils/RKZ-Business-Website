@@ -1,0 +1,18 @@
+html { 
+    scroll-behavior: smooth; 
+}
+
+body { 
+    font-family: 'Inter', sans-serif; 
+    color: #1f2937; 
+}
+
+.logo-transparent {
+    mix-blend-mode: multiply;
+}
+
+.hero-bg {
+    background-image: linear-gradient(rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.8)), url('https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+}
